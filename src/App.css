@@ -1,4 +1,36 @@
 @import "~antd/dist/antd.css";
 .App {
-  text-align: center;
+  width: 500px;
+  margin: 30px auto 0;
+}
+
+#myInput {
+  display: flex;
+}
+/* .todoList {
+} */
+.todoList .todoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px dotted #666;
+  padding: 5px 5px;
+}
+.todoList .listTitle {
+  font-size: 24px;
+}
+.todoList .todoItem .todoItemDiv {
+  padding-left: 10px;
+  font-size: 14px;
+  line-height: 32px;
+  width: 90%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+}
+.todoItemInput {
+  width: 90%;
+}
+.line-through {
+  text-decoration: line-through;
 }
